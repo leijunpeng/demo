@@ -1,0 +1,23 @@
+<?php
+
+
+namespace Leijunpeng\Demo;
+
+
+use Leijunpeng\Demo\Support\CustomClaims;
+
+class JWT
+{
+    use CustomClaims;
+
+    protected $manager;
+
+
+    protected $parser;
+
+    protected $token;
+
+    protected $lockSubject = true;
+
+
+}
