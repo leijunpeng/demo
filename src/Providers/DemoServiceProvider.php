@@ -4,7 +4,11 @@
 namespace Leijunpeng\Demo\Providers;
 
 
-class DemoServiceProvider
+use Illuminate\Support\ServiceProvider;
+
+class DemoServiceProvider extends AbstractServiceProvider
 {
+
+
 
 }

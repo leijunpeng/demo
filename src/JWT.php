@@ -19,5 +19,11 @@ class JWT
 
     protected $lockSubject = true;
 
+    public function __construct(Manager $manager, Parser $parser)
+    {
+        $this->manager = $manager;
+        $this->parser = $parser;
+    }
+
 
 }

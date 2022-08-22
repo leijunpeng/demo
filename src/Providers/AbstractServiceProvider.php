@@ -11,6 +11,7 @@ class AbstractServiceProvider extends ServiceProvider
 {
     protected  $middlewareAliases = [
         'jwt:auth' => Authenticate::class,
+        'jwt:check' =>'',
 
     ];
 

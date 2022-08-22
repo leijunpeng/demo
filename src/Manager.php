@@ -37,7 +37,7 @@ class Manager
     protected $persistentClaims = [];
 
 
-    public function __construct(JWTContract $provider,)
+    public function __construct(JWTContract $provider, Blacklist $blacklist, Factory $payloadFactory)
     {
     }
 
