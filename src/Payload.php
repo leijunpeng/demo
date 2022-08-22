@@ -15,6 +15,7 @@ class Payload implements ArrayAccess, Arrayable, Countable, Jsonable, JsonSerial
 
     public function offsetExists($offset)
     {
+        echo 'this is test';
         // TODO: Implement offsetExists() method.
     }
 
